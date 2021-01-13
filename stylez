@@ -1,0 +1,50 @@
+body{
+    background-color: aquamarine;
+    text-align:center}
+.menu {
+    position: fixed;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+}
+
+.links {
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px;}
+#your{
+   height: 200px;
+    width: 200px;  
+}
+h7{
+    font-size: 30px
+}
+
+p{
+    font-size: 25;
+}
+h3{
+    font-size: 30;
+}
+h6{
+    font-size: 30;
+}
+h9{
+ font-size: 30;   
+}
+#to{
+    transition: transform .2s;
+    border: 10px;
+    
+}
+#to:hover{
+    transform: scale(0.9);
+}
+#to{
+     height: 300px;
+    width: 300px;
+}
